@@ -1,0 +1,289 @@
+*{
+
+  margin: auto;
+}
+
+
+
+body{
+
+background-color: #FFFFFF;
+
+
+}
+
+
+
+header{
+
+background-color: #fff;
+height: 40px;
+overflow: hidden;
+padding:20px;
+
+}
+
+header h1{
+float: left;
+font-family: inherit;
+
+}
+.logo{
+
+color: #5fc1e8;
+
+
+}
+
+header nav{
+
+float: right;
+
+
+}
+
+
+
+
+header nav ul{
+list-style-type: none;
+
+
+
+}
+
+header nav ul li{
+float: left;
+margin-right: 20px;
+
+}
+
+a:link{
+
+text-decoration: none;
+text-transform: uppercase;
+font-size: 14pt;
+font-family: inherit;
+color:#43b7e4;
+
+}
+
+a:hover{
+
+text-decoration: underline;
+color: #1c9ed1;
+transition: 1s;
+
+
+}
+
+#bild{
+
+background-color: red;
+height: 500px;
+background-image: url('https://images.pexels.com/photos/1851821/pexels-photo-1851821.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') ;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-size: 100%;
+padding: 100px;
+
+}
+
+#bild h2{
+float: right;
+color:#1b97c8;
+text-shadow: 2px 2px 8px #fff;
+font-size: 48pt;
+
+}
+
+#bild p{
+
+position: absolute;
+right: 60px;
+top: 300px;
+width: 400px;
+font-size: 18pt;
+color: #fff;
+
+
+}
+
+.readmore{
+
+position: absolute;
+right: 160px;
+bottom: 350px;
+border: 1px solid #43b7e4;
+padding: 10px;
+background-color: #fff;
+
+
+
+
+}
+
+#Erbjudande{
+
+text-align: center;
+width: 1300px;
+margin-top: 20px;
+display: flex;
+
+}
+
+#Erbjudande ul{
+
+list-style-type: none;
+overflow: hidden;
+}
+
+#Erbjudande ul li{
+
+float: left;
+background-color: #fff;
+border:1px solid #ccc;
+height: 200px;
+overflow: hidden;
+width: 300px;
+margin-right: 10px;
+padding-top: 120px;
+}
+
+#Erbjudande #erbjudande_1{
+
+background: url('https://image.flaticon.com/icons/svg/889/889444.svg') no-repeat top center;
+background-size: 100px 100px;
+background-color: #fff;
+
+
+
+}
+#Erbjudande #erbjudande_2{
+
+background: url('https://image.flaticon.com/icons/svg/889/889271.svg') no-repeat top center;
+background-size: 100px 100px;
+background-color: #fff;
+
+
+
+}
+#Erbjudande #erbjudande_3{
+
+background: url('https://image.flaticon.com/icons/svg/889/889416.svg') no-repeat top center;
+background-size: 100px 100px;
+background-color: #fff;
+
+
+}
+
+#content{
+
+margin-top: 15px;
+padding-left: 100px;
+padding-right: 100px;
+}
+
+article h3 a:link{
+
+color: black;
+border-bottom: 1px dotted black;
+font-size: 24pt;
+text-transform: uppercase;
+margin-bottom: 10px;
+}
+article h3 a:hover{
+
+text-decoration: none;
+color:red;
+
+}
+article {
+
+overflow: hidden;
+background-color: #e4f3f9;
+margin-bottom: 10px;
+border: 1px solid #7ec8e5;
+padding: 20px;
+}
+
+article p{
+
+font-family: inherit;
+font-size: 16pt;
+float: left;
+width: 65%;
+text-align: justify;
+
+
+}
+
+article img{
+
+float: right;
+background-color: #fff;
+border: 1px solid #ccc;
+padding: 7px;
+width: 400px;
+height: 300px;
+
+}
+article .read{
+float: right;
+margin-right: 20px;
+background-color: #fff;
+border:1px solid #ccc;
+padding: 7px;
+margin-top: 10px;
+
+}
+
+
+
+footer{
+
+  background: #0d0e15;
+overflow: hidden;
+padding-top: 40px;
+padding-right: 300px;
+padding-left:300px;
+border-top: 4px solid black;
+
+}
+#first-footer{
+
+overflow: hidden;
+margin-bottom: 20px;
+border-bottom: 2px solid red;
+padding-bottom: 10px;
+
+}
+#first-footer ul{
+
+list-style-type: none;
+float: left;
+width:270px;
+margin-right: 10px;
+}
+
+#first-footer ul li{
+
+text-indent: 20px;
+margin-top: 10px;
+}
+
+#first-footer h4{
+
+color: black;
+border-bottom: 1px dotted red;
+
+
+}
+#second-footer{
+
+text-align: center;
+color: #64677c;
+padding-bottom: 20px;
+
+}

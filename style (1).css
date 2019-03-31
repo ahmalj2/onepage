@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+}
+
+#SKaffe {
+  background: url('bilder/RKaffe.jpg');
+  height: 800px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+
+}
+
+#head{
+margin: 0px 0px 0px 0px ;
+position: relative;
+  left: 0;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+
+
+}
+
+
+
+#OKaffe {
+  background: url('bilder/lösa.jpg');
+  height: 800px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+
+}
+
+#RKaffe {
+  background: url('bilder/kopp.jpg');
+  height: 800px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
+#KKaffe {
+  background: url('bilder/kaffe.jpg');
+  height: 800px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
