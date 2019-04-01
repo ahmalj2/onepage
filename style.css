@@ -92,7 +92,7 @@ transition: 1s;
 
 #bild{
 
-height: 500px;
+min-height: 500px;
 background-image: url('https://c.pxhere.com/photos/70/0b/weights_lifting_power_female_gym_fitness_young_sport-755448.jpg!d') ;
 background-repeat: no-repeat;
 background-position: center;
@@ -137,7 +137,7 @@ background-color: gray; /* Green */
 
 }
 #couches  > div > img{
-  width: 200px;
+  width: 400px;
 }
 
 #couches{
@@ -208,6 +208,7 @@ background-color: #fff;
 #content{
 
   display: flex;
+  margin-top: 2%;
 }
 
 #prices{
@@ -309,11 +310,16 @@ margin-top: 10px;
 
 #first-footer h4{
 
-color: black;
+color: white;
 border-bottom: 1px dotted red;
 
 
 }
+
+#first-footer{
+  color:white;
+}
+
 #second-footer{
 
 text-align: center;
@@ -342,6 +348,7 @@ input[type=text], select, textarea {
   border: 1px solid #ccc;
   border-radius: 4px;
   resize: vertical;
+  background-color: #C0C0C0	;
 }
 
 label {
@@ -365,8 +372,9 @@ input[type=submit]:hover {
 
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background: linear-gradient(110deg, black 60%, #ff9908 60%);
   padding: 20px;
+  color:white;
 }
 
 .col-25 {
@@ -394,4 +402,27 @@ input[type=submit]:hover {
     width: 100%;
     margin-top: 0;
   }
+}
+
+#cros{
+  color:white;
+}
+
+#couches {
+  font-size: 15pt;
+
+}
+
+#couches > div > img  {
+  width: 400px;
+}
+ #button{
+   width: 100%;
+   margin-top: 1%;
+   font-size: 25px;
+ }
+.contentP{
+  font-size: 20px;
+  font-weight: bold;
+
 }
